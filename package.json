@@ -1,0 +1,23 @@
+{
+    "name": "employee-service",
+    "version": "1.0.0",
+    "description": "Sample employee management apis",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "nodemon index.js"
+    },
+    "author": "Sonu Sathyadas",
+    "license": "ISC",
+    "dependencies": {
+        "@aws-sdk/client-dynamodb": "^3.44.0",
+        "@aws-sdk/util-dynamodb": "^3.45.0",
+        "express": "^4.17.2",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.3.0"
+    },
+    "devDependencies": {
+        "jest": "^29.1.2",
+        "nodemon": "^2.0.15"
+    }
+}
